@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter --version:*)",
+      "Bash(flutter pub get)",
+      "Bash(where flutter)",
+      "Bash(cmd /c \"where flutter\":*)",
+      "Bash(cmd /c \"choco --version\")",
+      "Bash(cmd /c \"scoop --version\")",
+      "Bash(curl:*)",
+      "Bash(where /r C: flutter.bat)",
+      "Bash(A:\\\\Flutter\\\\flutter\\\\bin\\\\flutter.bat pub get:*)",
+      "Bash(powershell -Command:*)",
+      "Bash(cmd /c:*)"
+    ]
+  }
+}
